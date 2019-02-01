@@ -2,4 +2,4 @@
 Get fundamental stock data from fianance.yahoo.com
 
 
-inputFile = "ALLNasDaq.csv" 
+inputFile = "NASDAQ_exchange.csv" 
