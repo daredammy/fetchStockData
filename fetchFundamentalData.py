@@ -15,7 +15,7 @@
 import time, datetime, requests, bs4, os, csv, re, webbrowser, pickle, math, threading, logging
 from platform import system
 
-inputFile = "NASDAQ_exchange.csv" #csv file with stock symbols in first column see resipo
+inputFile = "NASDAQ_exchange.csv" #csv file with stock symbols in first column see repository
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s- %(message)s')
 #logging.disable()
 timeNow = str(datetime.datetime.now().strftime('%m-%d %H_%M_%S'))
